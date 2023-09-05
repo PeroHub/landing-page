@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,400;1,200;1,300&family=Poppins:ital,wght@0,200;0,300;1,100;1,200&family=Roboto:ital,wght@0,100;0,300;0,500;0,700;1,300;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,900;1,500;1,700&display=swap');
+
 
 * {
     padding: 0;
@@ -9,10 +10,10 @@
 
 section {
     min-height: 100vh;
-    background-image:linear-gradient(rgba(0,0,0,0.60), rgba(0,0,0,0.60)), url("/image/kids.png");
+    background-image: linear-gradient(rgba(0,0,0,0.60), rgba(0,0,0,0.60)),url("/image/kids.png");
     background-position: center;
     background-repeat: no-repeat;
-    background-size:cover;
+    background-size: cover;
     background-blend-mode: multiply;
 }
 
@@ -22,7 +23,7 @@ section {
 }
 
 nav {
-    height: 80px; 
+    height: 80px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -35,12 +36,13 @@ nav {
     display: none;
 }
 
+
 nav h1 {
     line-height: 80px;
     font-size: 35px;
-    font-size: inline;
     color: #0891b2;
 }
+
 
 nav ul {
     line-height: 80px;
@@ -63,12 +65,13 @@ nav ul li a {
 
 nav ul li a:hover {
     background-color: #0891b2;
-    transition: 0.5s  ease;
+    transition: 0.5s;
 }
 
 nav ul li .active {
     background-color: #0891b2;
 }
+
 
 .article {
     width: 50%;
@@ -79,7 +82,7 @@ nav ul li .active {
 
 .article h1 {
     font-size: 25px;
-    color: #fff;
+    color:#fff;
     line-height: 1.5;
     font-weight: 800;
     margin-bottom: 5px;
@@ -92,7 +95,8 @@ nav ul li .active {
     margin-bottom: 30px;
 }
 
-.article  .btn {
+
+.article .btn {
     color: #fff;
     padding: 12px 25px;
     letter-spacing: 1.5px;
@@ -103,21 +107,20 @@ nav ul li .active {
     transition: 0.5s ease-in;
 }
 
-.article  .btn:hover {
+
+.article .btn:hover {
     background-color: rgba(0,0,0,0.60);
     color: #0891b2;
     border: 1px solid #0891b2;
 }
 
-
-
-
 @media screen and (max-width: 700px) {
     nav {
-        padding: 10px;
+        padding: 10px
     }
+
     .container {
-        width:100%;
+        width: 100%
     }
 
     .article {
@@ -128,8 +131,9 @@ nav ul li .active {
     .checkbtn {
         display: block;
     }
-    
+
     nav ul {
         display: none;
     }
 }
+
